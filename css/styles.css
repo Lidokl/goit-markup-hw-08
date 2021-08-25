@@ -398,7 +398,7 @@ img {
 }
 
 
-/* Постоянные клиенты */
+/* Постоянные клиенты 
 
 .client__list {
   display: flex;
@@ -575,7 +575,7 @@ margin-left: 10px;
 } */
 /* Портфолио */
 
-/* кнопки в портфолио*/
+/* кнопки в портфолио
 .filter {
   display: flex;
   justify-content: center;
