@@ -1,4 +1,4 @@
-:root {
+/*:root {
   --primary-text-color: #212121;
   --primary-bgc: #ffffff;
   --button-bgc: #afb1b8;
@@ -52,7 +52,7 @@ img {
   margin-right: auto;
 }
 
-/* logo */
+/* logo 
 
 .logo {
   color: var(--title-text-color);
@@ -69,9 +69,10 @@ img {
 
 .logo__footer {
   color: var(--primary-bgc);
-}
+} 
 
-/* шапка */
+
+/* шапка 
 .page-header {
   border-bottom: 1px solid var(--border-header);
  
@@ -166,7 +167,7 @@ img {
   fill: currentColor;
 }
 
-/* герой */
+/* герой 
 
 .hero {
   padding: 200px 0;
@@ -228,7 +229,7 @@ img {
 
 
 
-/* section */
+/* section 
 
 .section {
   padding: 94px 0;
@@ -275,7 +276,7 @@ img {
   list-style: none;
   letter-spacing: 0.03em;
   color: var(--title-color);
-}
+} 
 
 .title {
   margin-bottom: 50px;
@@ -313,9 +314,9 @@ img {
   text-transform: uppercase;
   color: var(--primary-bgc);
 }
+*/
 
-
-/*наша команда */
+/*наша команда 
 
 .team__info {
   background-color: var(--bgc-button);
@@ -563,7 +564,7 @@ color: rgba(255, 255, 255, 0.6);
 .subscribe__box {
    display: flex;
 }
-
+/*
 .subscribe-button {
   display: flex;
   align-items: center;
@@ -571,7 +572,7 @@ color: rgba(255, 255, 255, 0.6);
 
 .subscribe__buttom__icon {
 margin-left: 10px;
-}
+} */
 /* Портфолио */
 
 /* кнопки в портфолио*/
