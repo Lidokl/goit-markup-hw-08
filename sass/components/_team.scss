@@ -1,0 +1,46 @@
+.team__info {
+    background-color: $bgc-button;
+  }
+  
+  .team__work {
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  .team__card {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+  .team__image {
+    box-shadow: $title-color;
+  }
+  
+  .team__content {
+    padding: 30px 0;
+  
+    text-align: center;
+    background-color: $primary-bgc;
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+  .team__name {
+    color: $primary-text-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+  }
+  
+  .team__text {
+    padding-top: 10px;
+  
+    color: $title-color;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+  }
+  
+ 
