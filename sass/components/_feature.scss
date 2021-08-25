@@ -1,0 +1,46 @@
+.section {
+    padding: 94px 0;
+  }
+  
+  .feature-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .feature-list__item {
+    width: 270px;
+  }
+  
+  .feature-list__image {
+    width: 270px;
+    height: 120px;
+    background: $bgc-button;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+  }
+  
+  .feature-list__icon {
+    fill: $primary-text-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .feature-list__title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    list-style: none;
+    color: $primary-text-color;
+  }
+  .feature-list__text {
+    font-size: 14px;
+    line-height: 1.71;
+    list-style: none;
+    letter-spacing: 0.03em;
+    color: $title-color;
+  }
