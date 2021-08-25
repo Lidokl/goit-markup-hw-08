@@ -1,0 +1,38 @@
+.primary-button {
+    padding: 10px 29px;
+     background-color: $accent-color;
+     color: $primary-bgc;
+     display: inline-block;
+     justify-content: center;
+     text-align:  center;
+     width: 200px;
+     height: 50px;
+     letter-spacing: 0.06em;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+     border-radius: 4px;
+     border: none;
+     font-weight: bold;
+     font-size: 16px;
+     line-height: 1.87;
+     cursor: pointer;
+     
+     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   }
+   
+   .primary-button:focus,
+   .primary-button:hover {
+     color: $primary-bgc;
+     background-color:  #188CE8;
+   }
+   
+ 
+ .subscribe-button {
+   display: flex;
+   align-items: center;
+ }
+ 
+ .subscribe__buttom__icon {
+ margin-left: 10px;
+ }
+ 
