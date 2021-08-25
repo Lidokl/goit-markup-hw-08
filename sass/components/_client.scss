@@ -1,0 +1,35 @@
+.client__list {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .client__item {
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+  }
+  
+  .client__link {
+    display: flex;
+    padding: 16px 32px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid $button-bgc;
+    justify-content: center;
+    align-items: center;
+    fill: $button-bgc;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .client__icon {
+    width: 106px;
+    height: 60px;
+  }
+  
+  
+  .client__link:hover{
+    border: 1px solid $accent-color;
+     fill: $accent-color;
+  }
