@@ -1,24 +1,22 @@
 .social-team__list {
-    margin-top: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-  }
-  .social-team__link {
-   @extend %social;
-    width: 44px;
-    height: 44px;
-    background-color: $primary-bgc;
-    fill: $button-bgc;
-    
-    &:hover{
-      background-color: $accent-color;
-      fill: $bgc-button;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.social-team__link {
+  @extend %social;
+  width: 44px;
+  height: 44px;
+  background-color: $primary-bgc;
+  fill: $button-bgc;
+
+  &:hover {
+    background-color: $accent-color;
+    fill: $bgc-button;
   }
   .social-team__item:not(:last-child) {
     margin-right: 10px;
   }
-  
-     
-  }
+}
