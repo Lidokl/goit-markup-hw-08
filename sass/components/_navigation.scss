@@ -1,25 +1,18 @@
-.nav-list,
-.info-list {
-  display: flex;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.06;
+.nav-list {
+  @extend %list;
 }
+
 .nav-list__link__current {
   color: $accent-color;
  
 }
 
 .nav-list {
-  display: flex;
-  margin-left: 93px;
+ margin-left: 93px;
   
 }
 
-
-
-.nav-list__item:not(:last-child),
-.info-list__item:not(:last-child) {
+.nav-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
