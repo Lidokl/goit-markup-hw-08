@@ -1,6 +1,6 @@
  .feature-list {
-    display: flex;
-    justify-content: space-between;
+  @include centered($content:space-between);
+    
   }
   
   .feature-list__item {
@@ -17,8 +17,8 @@
   
   .feature-list__icon {
     fill: $primary-text-color;
-    display: flex;
-    justify-content: center;
+    @include centered();
+   
     align-items: center;
   }
   
