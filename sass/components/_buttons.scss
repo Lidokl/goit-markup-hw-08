@@ -3,7 +3,7 @@
   background-color: $accent-color;
   color: $primary-bgc;
 
-  @include centered(inline-block);
+  @include centered($type:inline-block);
   
   text-align: center;
   width: 200px;
