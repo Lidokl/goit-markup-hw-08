@@ -1,6 +1,6 @@
 .work-list {
-  justify-content: space-between;
-  display: flex;
+  @include centered($content:space-between);
+  
   padding-bottom: 94px;
 }
 .work-list__thumb {
