@@ -76,9 +76,10 @@
 }
 
 .checkbox__form {
-  display: flex;
+  @include centered();
+ 
   align-items: center;
-  justify-content: center;
+  
 }
 
 .checkbox__input {
