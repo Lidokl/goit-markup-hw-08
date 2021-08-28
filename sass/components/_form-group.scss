@@ -23,18 +23,19 @@
  
    transition: border  250ms cubic-bezier(0.4, 0, 0.2, 1),
    fill  250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
+   &:focus,
+   &:hover {
+    border: 1px solid $accent-color;
+
+   }
+
+  }
  
  .form-group__absolute {
    position: relative;
-   
  }
  
- .form-group__input:focus,
- .form-group__input:hover {
-  border: 1px solid $accent-color;
-  
- }
+ 
  
  .form-group__icon {
  position: absolute;
@@ -54,9 +55,8 @@
  .form-group__comment {
   margin-bottom: 20px;
  }
- .form-group__label__comment {
+ .form-group__texterea {
    padding: 0;
- 
    width: 448px;
    height: 120px;
    padding-top:12px ;
@@ -66,14 +66,17 @@
    border-radius: 4px;
    outline: none;
    cursor: pointer;
- 
    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
+   &:focus,
+   &:hover {
+   border: 1px solid $accent-color;
+   }
  
- .form-group__label__comment:focus,
- .form-group__label__comment:hover {
- border: 1px solid $accent-color;
- }
+  }
+  .form__buttom {
+    text-align: center;
+  }
+ 
  
  .checkbox {
    margin-bottom: 30px;
@@ -115,18 +118,18 @@
     
   }
   
-  .checkbox__icon__image {
+  .checkbox__icon-image {
     padding: 0;
     margin: 0;
     padding-bottom: 5px;
     padding-left: 2px;
   }
-  .checkbox-href {
+  .checkbox__reference {
     text-decoration: underline;
     color: $accent-color;
    
   }
-  .checkbox-text {
+  .checkbox__text {
     padding-left: 9px;
     font-size: 14px;
     line-height: 1.71;
@@ -135,8 +138,4 @@
     cursor: pointer;
   }
   
-  .modal__buttom {
-    display: flex;
-    justify-content: center;
-    
-  }
+  
