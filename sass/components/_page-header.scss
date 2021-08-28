@@ -1,7 +1,7 @@
-.page-header {
-    border-bottom: 1px solid var(--border-header);
+.header {
+    border-bottom: 1px solid $border-header;
   }
-  .container__header {
+  .header__container {
     display: flex;
     align-items: center;
   }
