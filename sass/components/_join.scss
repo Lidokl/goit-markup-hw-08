@@ -5,8 +5,8 @@
     margin-left: 70px;
   }
   .social-footer {
-    display: flex;
-    justify-content: center;
+    @include centered();
+    
     align-items: center;
   }
   .social-footer__icon {
