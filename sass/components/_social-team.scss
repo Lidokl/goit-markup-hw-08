@@ -1,8 +1,8 @@
 .social-team__list {
   margin-top: 16px;
-  display: flex;
+  @include centered();
+ 
   align-items: center;
-  justify-content: center;
   list-style: none;
 }
 .social-team__link {
