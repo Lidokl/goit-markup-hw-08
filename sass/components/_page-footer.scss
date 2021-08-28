@@ -1,81 +1,72 @@
 .footer {
-    padding: 60px 0;
-    font-family: inherit;
-    background-color: $title-black;
-    font-size: 14px;
-  }
-  .footer__container {
-    display: flex;
-    align-items: baseline;
-    margin-left: auto;
-  }
-  .footer__title {
-    margin-bottom: 20px;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  
-    color: $primary-bgc;
-  }
-  
-  .footer__address {
-    margin: 20px 0 0;
-  }
-  
-  .footer__locacion {
-    font-style: normal;
-    color: $primary-bgc;
-    text-decoration: none;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-  }
-  
-   
-   .footer-form__input{
-     padding:  15px 295px 15px 16px;
-     margin-right: 12px;
-       width: 358px;
-   height: 50px;
-     border: 1px solid rgba(255, 255, 255, 0.3);
-   box-sizing: border-box;
-   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-   border-radius: 4px;
-   font-family: Roboto;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 16px;
-   line-height: 1.25;
-   align-items: center;
-   letter-spacing: 0.03em;
-   background: #2F303A;
-   color: rgba(255, 255, 255, 0.6);
-   }
-   
-   .footer-form {
-      display: flex;
-   }
-   
-   
-  .footer__navigate {
-    margin-top: 9px;
-    font-size: 14px;
-   letter-spacing: 0.03em;
-    color:$white-grau;
-    text-decoration: none;
-    font-style: normal;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   &:hover,
-   &:focus {
-      color: $accent-color;
-      text-decoration: none;
-    
-    }
+  padding: 60px 0;
+  font-family: inherit;
+  background-color: $title-black;
+  font-size: 14px;
+}
+.footer__container {
+  display: flex;
+  align-items: baseline;
+  margin-left: auto;
+}
+.footer__title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
+  color: $primary-bgc;
+}
+
+.footer__address {
+  margin: 20px 0 0;
+}
+
+.footer__locacion {
+  font-style: normal;
+  color: $primary-bgc;
+  text-decoration: none;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-form__input {
+  padding: 15px 295px 15px 16px;
+  margin-right: 12px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+  letter-spacing: 0.03em;
+  background: #2f303a;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-form {
+  display: flex;
+}
+
+.footer__navigate {
+  margin-top: 9px;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: $white-grau;
+  text-decoration: none;
+  font-style: normal;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    text-decoration: none;
   }
-  
-  
-  
-  
-  
+}
