@@ -490,7 +490,7 @@ img {
 
 .primary-button:focus, .primary-button:hover {
   color: #ffffff;
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 .primary-button--flex {
@@ -797,7 +797,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   letter-spacing: 0.03em;
-  background: #2F303A;
+  background: #2f303a;
   color: rgba(255, 255, 255, 0.6);
 }
 
