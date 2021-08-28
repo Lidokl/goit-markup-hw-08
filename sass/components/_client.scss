@@ -1,6 +1,6 @@
 .client__list {
-    display: flex;
-    justify-content: space-between;
+  @include centered($content:space-between);
+   
     
   }
   
