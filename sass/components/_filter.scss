@@ -1,6 +1,6 @@
 .filter {
-  display: flex;
-  justify-content: center;
+  @include centered();
+ 
 }
 
 .filter__item:not(:last-child) {
