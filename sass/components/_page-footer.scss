@@ -5,8 +5,7 @@
   font-size: 14px;
 }
 .footer__container {
-  display: flex;
-  align-items: baseline;
+  @include flex($ai:baseline);
   margin-left: auto;
 }
 .footer__title {

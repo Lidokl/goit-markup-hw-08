@@ -1,5 +1,5 @@
 .filter {
-  @include centered();
+  @include flex($jc:center);
  
 }
 

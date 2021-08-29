@@ -2,10 +2,10 @@
   padding: 10px 29px;
   background-color: $accent-color;
   color: $primary-bgc;
-
-  @include centered($type:inline-block);
-  
-  text-align: center;
+ display: inline-block;
+ 
+ justify-content: center;
+ text-align: center;
   width: 200px;
   height: 50px;
   letter-spacing: 0.06em;

@@ -1,5 +1,14 @@
-@mixin centered($type: flex, $content: center) {
-    display: $type;
-    justify-content: $content;
+@mixin flex($jc:false, $ai:false, $ta:false) {
+    
+   display: flex;
+    @if($jc) {
+      justify-content: $jc;
+    }
+    @if($ai){
+      align-items: $ai;
+    }
+    @if($ta){
+      text-align:$ta;
+    }
   }
- 
+  

@@ -1,6 +1,7 @@
 .portfolio-list {
   margin-top: 50px;
-  display: flex;
+  @include flex();
+ 
   flex-wrap: wrap;
   text-decoration: none;
 }

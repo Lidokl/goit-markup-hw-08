@@ -1,5 +1,5 @@
  .feature-list {
-  @include centered($content:space-between);
+  @include flex($jc:space-between);
     
   }
   
@@ -17,9 +17,7 @@
   
   .feature-list__icon {
     fill: $primary-text-color;
-    @include centered();
-   
-    align-items: center;
+    @include flex($jc:center,$ai:center);
   }
   
   .feature-list__title {

@@ -1,5 +1,5 @@
 .work-list {
-  @include centered($content:space-between);
+  @include flex($jc:space-between);
   
   padding-bottom: 94px;
 }

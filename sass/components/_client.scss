@@ -1,5 +1,5 @@
 .client__list {
-  @include centered($content:space-between);
+  @include flex($jc:space-between);
    
 
   }
@@ -12,13 +12,13 @@
   }
   
   .client__link {
-    @include centered();
+    @include flex($jc:center,$ai:center);
     
     padding: 16px 32px;
     box-sizing: border-box;
     border-radius: 4px;
     border: 1px solid $button-bgc;
-    align-items: center;
+   
     fill: $button-bgc;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover{

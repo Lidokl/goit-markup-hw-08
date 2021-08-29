@@ -2,6 +2,6 @@
     border-bottom: 1px solid $border-header;
   }
   .header__container {
-    display: flex;
-    align-items: center;
+    @include flex($ai:center);
+   
   }
