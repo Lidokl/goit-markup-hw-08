@@ -1,7 +1,7 @@
 .client__list {
-    display: flex;
-    justify-content: space-between;
-    
+  @include flex($jc:space-between);
+   
+
   }
   
   .client__item {
@@ -12,15 +12,20 @@
   }
   
   .client__link {
-    display: flex;
+    @include flex($jc:center,$ai:center);
+    
     padding: 16px 32px;
     box-sizing: border-box;
     border-radius: 4px;
     border: 1px solid $button-bgc;
-    justify-content: center;
-    align-items: center;
+   
     fill: $button-bgc;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{
+      border: 1px solid $accent-color;
+       fill: $accent-color;
+    }
+  
   }
   
   .client__icon {
@@ -29,7 +34,4 @@
   }
   
   
-  .client__link:hover{
-    border: 1px solid $accent-color;
-     fill: $accent-color;
-  }
+  

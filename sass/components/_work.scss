@@ -1,27 +1,23 @@
-.work__list {
+.work-list {
+  @include flex($jc:space-between);
   
-    justify-content: space-between;
-    display: flex;
-    padding-bottom: 94px;
-  }
-  .work__thumb {
-    position: relative;
-  
-  }
-  .work__action {
-     position: absolute;
-     width: 100%;
-     bottom: 0;
-     padding: 27px 0;
-     background: $title-grau ;
-     font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: $primary-bgc;
-  }
-  
-  
+  padding-bottom: 94px;
+}
+.work-list__thumb {
+  position: relative;
+}
+.work-list__action {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 27px 0;
+  background: $title-grau;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $primary-bgc;
+}

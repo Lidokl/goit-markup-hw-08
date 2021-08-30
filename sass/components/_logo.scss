@@ -1,15 +1,15 @@
 .logo {
-    color: $title-text-color;
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    text-decoration: none;
-  }
-  .logo__color {
-    color: $accent-color;
-  }
-  
-  .logo__footer {
-    color: $primary-bgc;
-  }
+  color: $title-text-color;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo--blue {
+  color: $accent-color;
+}
+
+.logo--white {
+  color: $primary-bgc;
+}

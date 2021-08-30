@@ -1,13 +1,7 @@
-.section {
-    padding: 94px 0;
+ .feature-list {
+  @include flex($jc:space-between);
+    
   }
-  
-  .feature-list {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  
   
   .feature-list__item {
     width: 270px;
@@ -23,9 +17,7 @@
   
   .feature-list__icon {
     fill: $primary-text-color;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex($jc:center,$ai:center);
   }
   
   .feature-list__title {

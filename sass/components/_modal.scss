@@ -36,14 +36,14 @@
   }
   
   
-  .modal-close__wrap {
+  .modal__close-wrap {
    position: absolute;
    right: 0;
    top: 0;
    margin: 8px;
   }
   
-  .modal-close__buttom{
+  .modal__close-button{
      width: 30px;
      height: 30px;
      border-radius: 50%;
@@ -54,18 +54,20 @@
      cursor: pointer;
      fill: $title-text-color;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    &:hover {
+      fill: $accent-color;
+    }
+
   }
   
-  .modal-close__icon {
+  .modal__close-icon {
      width: 11px;
      height: 11px;
      border: none;
      padding-top: 2px;
   }
   
-  .modal-close__buttom:hover {
-    fill: $accent-color;
-  }
+  
   
   .modal__name {
     margin-bottom: 12px;
