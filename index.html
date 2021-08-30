@@ -26,8 +26,17 @@
         <a href="index.html" class="logo" lang="en"
           ><span class="logo--blue">Web</span><span>Studio</span></a
         >
+          <button 
+           class=" container header__button-mobile is-open" data-menu-button
+           >
+          <svg width="40px" height="40px" aria-label="переключатель мобильного меню">
+            <use class="header__button-menu" href="./images/symbol-defs.svg#menu"></use>
+            <use class="header__button-close" href="./images/symbol-defs.svg#close"></use>
+          </svg>
+            </button>
 
-        <nav>
+            <div class="header__menu">
+        <nav class="">
           <ul class="nav-list">
             <li class="nav-list__item">
               
@@ -59,7 +68,8 @@
             </svg><span> +38 096 111 11 11</span>
               </a>
           </li>
-        </ul>
+         </ul>
+        </div>
       </div>
     </header>
     <!-- основная часть сайта-->
@@ -503,6 +513,7 @@
       </div>
     </div>
     <script src="./modal.js"></script>
+    <script src="./menu.js"></script>
   </body>
 </html>
 
