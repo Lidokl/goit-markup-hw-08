@@ -47,6 +47,9 @@ img {
 
 .section {
   padding: 94px 0;
+  @media (min-width: 768px){
+    padding: 60px 0;
+  }
 }
 .title {
   margin-bottom: 50px;

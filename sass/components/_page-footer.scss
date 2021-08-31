@@ -1,14 +1,31 @@
 .footer {
+ 
   padding: 60px 0;
   font-family: inherit;
   background-color: $title-black;
   font-size: 14px;
+
 }
+.footer__container-tablet{
+  @media screen and (min-width: 768px){
+    display: block;
+  }
+}
+
 .footer__container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+  @media screen and (min-width: 1200px){
   @include flex($ai:baseline);
   margin-left: auto;
+  }
 }
 .footer__title {
+ 
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 14px;
@@ -17,21 +34,36 @@
   text-transform: uppercase;
 
   color: $primary-bgc;
+  @media screen and (min-width: 768px){
+    text-align: center;
 }
-
+@media screen and (min-width: 1200px){
+  text-align: inherit;
+}
+}
 .footer__address {
+  
+  @media screen and (min-width: 1200px){
   margin: 20px 0 0;
+  }
 }
-
+.footer__address-list{
+  @media screen and (min-width: 768px){
+    display:grid;
+  }
+}
 .footer__locacion {
+ 
   font-style: normal;
   color: $primary-bgc;
   text-decoration: none;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
 }
 
 .footer-form__input {
+  
   padding-left: 15px;
   margin-right: 12px;
   width: 358px;
@@ -49,13 +81,16 @@
   letter-spacing: 0.03em;
   background: #2f303a;
   color: rgba(255, 255, 255, 0.6);
+
 }
 
 .footer-form {
+ 
   display: flex;
-}
+} 
 
 .footer__navigate {
+ 
   margin-top: 9px;
   font-size: 14px;
   letter-spacing: 0.03em;
