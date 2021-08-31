@@ -20,19 +20,37 @@
 }
 
 .info-list__link {
+
+  @media screen and (min-width: 768px){
+    color: $title-color;
+    display: inline-flex;
+    align-items: center;
+  }
+
+
+  @media screen and (min-width: 1200px) {
   color: $title-color;
-  @include flex($ai:center);
+ display: flex;
+ align-items: center;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
     color: $accent-color;
   }
 }
-
+}
 .info-list__icon {
+  @media screen and (min-width: 768px){
+    margin-right: 10px;
+    text-decoration: none;
+    fill: currentColor;
+  }
+
+  @media screen and (min-width: 1200px) {
   margin-right: 10px;
   text-decoration: none;
   fill: currentColor;
+}
 }
 .info-list__item:not(:last-child) {
   margin-right: 50px;
