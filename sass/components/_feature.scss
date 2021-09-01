@@ -1,19 +1,65 @@
  .feature-list {
-  @include flex($jc:space-between);
+  display: flex;
+  @media (max-width: 767px){
+    display: block;
+  }
+
+  @media screen and (min-width: 768px) {
+   
+    
+    margin-left: -30px;
+      margin-top: -30px;
     
   }
+  @media (max-width: 1199px){
+    flex-wrap: wrap;
+  }
+
+}
   
-  .feature-list__item {
+  .feature-list__item { 
+    @media (min-width: 1200px) {
+      margin-right: 30px;
+    }
+    @media (max-width: 767px) {
+      margin-top: 30px;
+      &:first-child {
+        margin-top: 0;
+      } }
+    @media (min-width: 768px)  {
+      width: calc((100% - 30px * 2) / 2);
+     
+      margin-left: 30px;
+      margin-top: 30px;
+    }
+    @media screen and (min-width: 1200px){
     width: 270px;
   }
-  
+  &:last-child {
+    margin-right: 0;
+  }
+}
   .feature-list__image {
+    background: $bgc-button;
+    margin-bottom: 30px;
+    @media screen and (max-width: 767px){
+      width: 450px;
+      height: 120px;
+      padding: 25px 192px;
+    }
+    @media screen and (min-width: 768px){
+      width: 354px;
+      height: 120px;
+      padding: 25px 143px;
+    }
+   
+
+    @media screen and (min-width: 1200px){
     width: 270px;
     height: 120px;
-    background: $bgc-button;
     padding: 25px 100px;
-    margin-bottom: 30px;
   }
+}
   
   .feature-list__icon {
     fill: $primary-text-color;
@@ -21,18 +67,27 @@
   }
   
   .feature-list__title {
-    margin-bottom: 10px;
     font-size: 14px;
+    margin-bottom: 10px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     list-style: none;
     color: $primary-text-color;
+    
+   
   }
   .feature-list__text {
-    font-size: 14px;
+    
     line-height: 1.71;
     list-style: none;
     letter-spacing: 0.03em;
     color: $title-color;
+    @media screen and (min-width: 768px){
+      font-size: 14px;
+    }
+    @media screen and (min-width: 1200px){
+      font-size: 14px;
+    }
+
   }

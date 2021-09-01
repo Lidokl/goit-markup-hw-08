@@ -35,10 +35,10 @@
           </svg>
             </button>
 
-            <div class="header__menu">
-        <nav class="">
-          <ul class="nav-list">
-            <li class="nav-list__item">
+            <div class="header__menu" id="header__menu" data-menu>
+             <nav class="">
+               <ul class="nav-list">
+                 <li class="nav-list__item">
               
               <a href="./index.html" class="nav-list__link nav-list__link__current">Студия</a>
             </li>
@@ -69,6 +69,20 @@
               </a>
           </li>
          </ul>
+         <ul class="header-social">
+          <li class="header-social__item">
+            <a class="header-social__link" href="#"><span class="header-social__text">Instagram</span></a>
+          </li>
+          <li class="header-social__item">
+            <a class="header-social__link " href="#"><span class="header-social__text">Twitter</span></a>
+          </li>
+          <li class="header-social__item">
+            <a class="header-social__link " href="#"><span class="header-social__text">Facebook</span></a>
+          </li>
+          <li class="header-social__item">
+            <a class="header-social__link " href="#"><span class="header-social__text" >LinkedIn</span></a>
+          </li>
+    </ul>
         </div>
       </div>
     </header>
@@ -141,6 +155,7 @@
       </section>
 
       <section class="container">
+        <div class="work">
         <h2 class="title">Чем мы занимаемся</h2>
 
         <ul class="work-list">
@@ -177,6 +192,7 @@
            
           </li>
         </ul>
+      </div>
       </section>
 
       <!--наша команда-->
@@ -381,7 +397,7 @@
     
     <footer class="footer">
       <div class="container footer__container">
-        <div>
+        <div class="footer__container-tablet">
           <a href="#" class="logo" lang="en"
             ><span class="logo--blue">Web</span
             ><span class="logo--white">Studio</span></a
@@ -438,10 +454,11 @@
                <h3 class="footer__title">Подпишитесь на рассылку</h3>
                   <form class="footer-form"> 
                       <input class="footer-form__input" type="email" name="email" placeholder="E-mail" id="mail" autocomplete="on"/>
-                      
+                      <div class="footer-form__mobile">
                       <button class="primary-button primary-button--flex" type="submit">Подписаться
                       <svg class="primary-button--icon" width="24px" height="24px" ><use href="./images/symbol-defs.svg#icon-send-1f"></use></svg>
                     </button>
+                  </div>
                   </form>
             </div>
           </div>

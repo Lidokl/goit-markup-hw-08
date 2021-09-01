@@ -7,8 +7,6 @@
    
   }
   .header__menu {
-     
-     
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -44,4 +42,37 @@
         }
       }
     
-  
+     .header-social {
+      display: none;
+      @media (max-width: 767px) {
+       display: flex;
+       }
+     }
+
+     .header-social__item {
+      padding: 0 10px;
+      border-right: 1px solid rgba(33, 33, 33, 0.2);
+      &:first-child {
+        padding: 0 10px 0 0;
+      }
+      &:last-child {
+        border-right: none;
+        padding: 0 0 0 10px;
+      }
+    
+     }
+
+     .header-social__link{
+      text-decoration: none;
+     }
+
+     .header-social__text {
+      
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 1.22;
+      letter-spacing: 0.02em;
+      color: #2196F3;
+      
+      
+     }
