@@ -594,6 +594,16 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .info-list__link {
+    color: #757575;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .info-list__link-mobile {
     color: #2196F3;
@@ -607,7 +617,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .info-list__link {
+  .info-list__link-mobile {
     color: #757575;
     display: -webkit-box;
     display: -ms-flexbox;
