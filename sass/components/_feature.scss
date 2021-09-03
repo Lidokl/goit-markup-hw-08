@@ -74,9 +74,10 @@
     text-transform: uppercase;
     list-style: none;
     color: $primary-text-color;
-    
-   
+    @media screen and (max-width: 767px){
+    text-align: center;
   }
+}
   .feature-list__text {
     
     line-height: 1.71;
