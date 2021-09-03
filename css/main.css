@@ -594,14 +594,16 @@ img {
   }
 }
 
-.info-list__link-mobile {
-  color: #2196F3;
-  font-weight: 500;
-  font-size: 34px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  margin-bottom: 32px;
+@media screen and (max-width: 767px) {
+  .info-list__link-mobile {
+    color: #2196F3;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    margin-bottom: 32px;
+  }
 }
 
 @media screen and (min-width: 768px) {
