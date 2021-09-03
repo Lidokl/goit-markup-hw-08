@@ -8,9 +8,12 @@
    
   }
 
-  @media screen and (min-width: 768px){
-    flex-wrap:wrap;
+  @media (min-width: 768px) and (max-width: 1199px){
+    
+    flex-wrap: wrap;
+   
     @include flex($jc: space-between)
+   
     
   }
   @media screen and (max-width: 1199px){
@@ -39,10 +42,8 @@
   }
   @media (min-width: 768px) and (max-width: 1199px) {
     width: calc((100% - 30px * 2) / 2);
-    flex-wrap: wrap;
-    min-width: 354px;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 15px;
+    margin-top: 15px;
   }
   @media (min-width: 1200px) {
     max-width: 270px;
