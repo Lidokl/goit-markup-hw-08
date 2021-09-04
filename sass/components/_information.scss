@@ -21,6 +21,7 @@
 
 .info-list__link {
   @media screen and (max-width: 767px){
+    
   font-weight: 500;
 font-size: 24px;
 line-height: 28px;
@@ -28,10 +29,11 @@ letter-spacing: 0.02em;
 
 color: #757575;
   }
-  @media screen and (min-width: 768px){
+  @media (min-width: 768px) and (max-width: 1199px){
     color: $title-color;
     display: flex;
     text-align: center;
+    justify-content: center;
 
    
   }
