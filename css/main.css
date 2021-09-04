@@ -786,7 +786,7 @@ img {
   display: none;
 }
 
-@media screen and (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
   .header__button-mobile {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
