@@ -416,7 +416,7 @@ img {
 @media screen and (max-width: 767px) {
   .header__menu.is-open {
     height: 100vh;
-    padding: 21px 40px;
+    padding: 48px 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
