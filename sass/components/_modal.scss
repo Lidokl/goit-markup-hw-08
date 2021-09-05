@@ -34,13 +34,12 @@
   }
   
   .modal {
-    @media screen and (max-width: 767px){
+    @media screen and (min-width: 768px){
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(50%, -50%);
-      width: 450px;
-  height: 609px;
+     
 
     }
 
@@ -49,8 +48,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%) scale(1);
-    width: 528px;
-    height: 581px;
+    
     background: $primary-bgc;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
