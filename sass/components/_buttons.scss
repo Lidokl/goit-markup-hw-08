@@ -72,9 +72,7 @@
     margin: 0;
     border: none;
     background-color: $primary-bgc;
-    &.is-open .header__button-close {
-      display: block;
-    }
+    
   
 
 & .header__button-menu {
@@ -85,6 +83,17 @@
 }
 & .header__button-close {
   display: none;
+}
+&.is-open .header__button-close {
+  display: block;
+  position: fixed;
+  display: inline-flex;
+  justify-content: flex-end;
+
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: $primary-bgc;
 }
 
 }
