@@ -67,13 +67,16 @@
     
     display: inline-flex;
     justify-content: flex-end;
-display: flex;
+
     padding: 0;
-    margin: 10px 15px;
+    margin: 0;
     border: none;
     background-color: $primary-bgc;
+    &.is-open .header__button-close {
+      display: block;
+    }
   
-}
+
 & .header__button-menu {
   display: block;
 }
@@ -83,15 +86,17 @@ display: flex;
 & .header__button-close {
   display: none;
 }
-&.is-open .header__button-close {
-  display: block;
+
 }
 }
 .header__button-menu{
     color:  #212121;
 }
+.header__button-close {
+color: #212121;
+}
 .header__button-mobile.header__button-menu:hover,
 .header__button-mobile .header__button-menu:focus {
       color: #2196f3;
     }
-   
+  

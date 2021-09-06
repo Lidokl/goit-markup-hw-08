@@ -27,26 +27,19 @@
           ><span class="logo--blue">Web</span><span>Studio</span></a
         >
           <button 
-           class=" container header__button-mobile is-open" data-menu-button
+           class=" container header__button-mobile " data-menu-button
            >
           <svg width="40px" height="40px" aria-label="переключатель мобильного меню" aria-expanded="false"
           aria-control="header__menu">
-          <use class="header__button-menu" href="./images/symbol-defs.svg#menu"></use>
           <use class="header__button-close" href="./images/symbol-defs.svg#close"></use>
+          <use class="header__button-menu" href="./images/symbol-defs.svg#menu"></use>
+          
             
           </svg>
             </button>
 
-            <div class="header__menu" id="header__menu" data-menu>
-              <button 
-              class=" container header__button-mobile" 
-              >
-             <svg width="40px" height="40px" aria-label="переключатель мобильного меню" aria-expanded="false"
-             aria-control="header__menu">
-             <use class="header__button-menu" href="./images/symbol-defs.svg#menu"></use>
-               <use class="header__button-close"  href="./images/symbol-defs.svg#close"></use>
-             </svg>
-               </button>
+            <div class="header__menu " id="header__menu" data-menu>
+             
              <nav class="">
                <ul class="nav-list">
                  <li class="nav-list__item">
@@ -542,6 +535,9 @@
             </div>
       </div>
     </div>
+    
+    <script src="./modal.js"></script>
+    <script src="./menu.js"></script>
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
@@ -549,8 +545,6 @@
       crossorigin="anonymous"
     >
 </script>
-    <script src="./modal.js"></script>
-    <script src="./menu.js"></script>
   </body>
 </html>
 
