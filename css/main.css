@@ -1603,6 +1603,9 @@ img {
 }
 
 @media screen and (min-width: 480px) {
+  .portfolio-list__item {
+    margin-bottom: 30px;
+  }
   .portfolio-list__item:last-child {
     margin-bottom: 0px;
   }
