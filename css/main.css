@@ -827,9 +827,13 @@ img {
         -ms-flex-pack: end;
             justify-content: flex-end;
     padding: 0;
-    margin: 0;
+    margin: 12px 0;
     border: none;
     background-color: #ffffff;
+    z-index: 10;
+  }
+  .header__button-mobile:hover, .header__button-mobile:focus {
+    color: #2196f3;
   }
   .header__button-mobile .header__button-menu {
     display: block;
@@ -849,10 +853,14 @@ img {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+    z-index: 10;
     padding: 0;
     margin: 0;
     border: none;
     background-color: #ffffff;
+  }
+  .header__button-mobile.is-open .header__button-close:hover, .header__button-mobile.is-open .header__button-close:focus {
+    color: #2196f3;
   }
 }
 
@@ -862,11 +870,6 @@ img {
 
 .header__button-close {
   color: #212121;
-}
-
-.header__button-mobile.header__button-menu:hover,
-.header__button-mobile .header__button-menu:focus {
-  color: #2196f3;
 }
 
 .feature-list {
@@ -1620,6 +1623,7 @@ img {
 @media (min-width: 1200px) {
   .portfolio-list__item {
     width: calc((100% - 30px * 3) / 3);
+    margin: 0;
   }
 }
 

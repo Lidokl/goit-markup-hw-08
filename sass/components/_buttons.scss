@@ -2,10 +2,10 @@
   padding: 10px 29px;
   background-color: $accent-color;
   color: $primary-bgc;
- display: inline-block;
- 
- justify-content: center;
- text-align: center;
+  display: inline-block;
+
+  justify-content: center;
+  text-align: center;
   width: 200px;
   height: 50px;
   letter-spacing: 0.06em;
@@ -59,53 +59,53 @@
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
-.header__button-mobile  {
-  
+.header__button-mobile {
   display: none;
- 
+
   @media (min-width: 480px) and (max-width: 767px) {
-    
     display: inline-flex;
     justify-content: flex-end;
 
     padding: 0;
-    margin: 0;
+    margin: 12px 0;
     border: none;
     background-color: $primary-bgc;
-    
-  
+    z-index: 10;
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
 
-& .header__button-menu {
-  display: block;
-}
-&.is-open .header__button-menu {
-  display: none;
-}
-& .header__button-close {
-  display: none;
-}
-&.is-open .header__button-close {
-  display: block;
-  position: fixed;
-  display: inline-flex;
-  justify-content: flex-end;
+    & .header__button-menu {
+      display: block;
+    }
+    &.is-open .header__button-menu {
+      display: none;
+    }
+    & .header__button-close {
+      display: none;
+    }
+    &.is-open .header__button-close {
+      display: block;
+      position: fixed;
+      display: inline-flex;
+      justify-content: flex-end;
+      z-index: 10;
 
-  padding: 0;
-  margin: 0;
-  border: none;
-  background-color: $primary-bgc;
+      padding: 0;
+      margin: 0;
+      border: none;
+      background-color: $primary-bgc;
+      &:hover,
+      &:focus {
+        color: $accent-color; 
+      }
+    }
+  }
 }
-
-}
-}
-.header__button-menu{
-    color:  #212121;
+.header__button-menu {
+  color: #212121;
 }
 .header__button-close {
-color: #212121;
+  color: #212121;
 }
-.header__button-mobile.header__button-menu:hover,
-.header__button-mobile .header__button-menu:focus {
-      color: #2196f3;
-    }
-  
