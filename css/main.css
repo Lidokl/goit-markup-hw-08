@@ -580,6 +580,7 @@ img {
     display: block;
     padding: 0;
     margin-left: 30px;
+    font-size: 12px;
   }
 }
 
@@ -618,11 +619,7 @@ img {
 @media (min-width: 768px) and (max-width: 1199px) {
   .info-list__link {
     color: #757575;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     text-align: center;
-    font-size: 12px;
   }
 }
 
