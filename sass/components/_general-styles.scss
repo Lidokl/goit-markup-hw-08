@@ -34,9 +34,6 @@ img {
     padding: 0 15px;
     
   }
-
- 
-
   @media screen and (min-width: 1200px) {
     width: 1200px;
     padding: 0 15px;
@@ -58,6 +55,11 @@ img {
   }
 }
 .title {
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 30px;
+  }
+  
+
   margin-bottom: 50px;
   list-style: none;
   color: $primary-text-color;

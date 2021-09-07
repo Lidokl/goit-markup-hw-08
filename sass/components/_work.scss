@@ -15,9 +15,11 @@
   @include flex($jc:space-between);
   
   padding-bottom: 94px;
+  margin: -15px;
 }
 .work-list__thumb {
   position: relative;
+  margin: 15px
 }
 .work-list__action {
   position: absolute;
