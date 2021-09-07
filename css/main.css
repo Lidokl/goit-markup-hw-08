@@ -829,7 +829,7 @@ img {
     z-index: 10;
   }
   .header__button-mobile:hover, .header__button-mobile:focus {
-    color: #2196f3;
+    fill: #2196f3;
   }
   .header__button-mobile .header__button-menu {
     display: block;
@@ -856,16 +856,8 @@ img {
     background-color: #ffffff;
   }
   .header__button-mobile.is-open .header__button-close:hover, .header__button-mobile.is-open .header__button-close:focus {
-    color: #2196f3;
+    fill: #2196f3;
   }
-}
-
-.header__button-menu {
-  color: #212121;
-}
-
-.header__button-close {
-  color: #212121;
 }
 
 .feature-list {
