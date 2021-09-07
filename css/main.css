@@ -577,10 +577,9 @@ img {
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .info-list {
-    display: block;
-    padding: 0;
     margin-left: 30px;
     font-size: 12px;
+    padding-top: 10px;
   }
 }
 
