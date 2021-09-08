@@ -927,10 +927,6 @@ img {
   }
 }
 
-.feature-list__item:last-child {
-  margin-right: 0;
-}
-
 .feature-list__image {
   background: #f5f4fa;
   margin-bottom: 30px;
@@ -1602,9 +1598,6 @@ img {
 @media screen and (min-width: 480px) {
   .portfolio-list__item {
     margin-bottom: 30px;
-  }
-  .portfolio-list__item:last-child {
-    margin-bottom: 0px;
   }
 }
 

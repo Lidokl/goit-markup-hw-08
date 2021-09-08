@@ -33,9 +33,7 @@
  
   @media screen and (min-width: 480px){
     margin-bottom: 30px;
-    &:last-child {
-      margin-bottom: 0px;
-  }
+    
   @media (min-width: 768px) {
     width: calc((100% - 30px * 2) / 2);
    margin: 15px;
