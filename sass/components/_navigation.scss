@@ -86,3 +86,9 @@
     color: $accent-color;
   }
 }
+.nav-list__link-active {
+  @media (min-width: 480px) and (max-width: 767px) {
+    color: #2196f3;
+  }
+ 
+}
