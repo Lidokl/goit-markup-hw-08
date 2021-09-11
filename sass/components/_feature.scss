@@ -1,86 +1,77 @@
- .feature-list {
+.feature-list {
   display: flex;
   margin: -15px;
-  @media (max-width: 767px){
+  @media (max-width: 767px) {
     display: block;
   }
-  
-  @media (max-width: 1199px){
+
+  @media (max-width: 1199px) {
     flex-wrap: wrap;
   }
-
 }
-  
-  .feature-list__item { 
-    margin: 15px;
-    @media (min-width: 1200px) {
-      
-    }
-    @media (max-width: 767px) {
-     margin: 30px 15px;
-       }
-      @media screen and (min-width: 768px) and (max-width: 1199px) {
-      width: calc((100% - 30px * 2) / 2);
-     
-     
-    }
-    @media screen and (min-width: 1200px){
+
+.feature-list__item {
+  margin: 15px;
+  @media (min-width: 1200px) {
+  }
+  @media (max-width: 767px) {
+    margin: 30px 15px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: calc((100% - 30px * 2) / 2);
+  }
+  @media screen and (min-width: 1200px) {
     width: 270px;
   }
-  
 }
-  .feature-list__image {
-    background: $bgc-button;
-    margin-bottom: 30px;
-    border-radius: 4px;
-    @media screen and (max-width: 767px){
-      width: 450px;
-      height: 120px;
-      padding: 25px 192px;
-    }
-    @media screen and (min-width: 768px){
-      width: 354px;
-      height: 120px;
-      padding: 25px 143px;
-      
-    }
-   
+.feature-list__image {
+  background: $bgc-button;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  @media screen and (max-width: 767px) {
+    width: 450px;
+    height: 120px;
+    padding: 25px 192px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 354px;
+    height: 120px;
+    padding: 25px 143px;
+  }
 
-    @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     width: 270px;
     height: 120px;
     padding: 25px 100px;
   }
 }
-  
-  .feature-list__icon {
-    fill: $primary-text-color;
-    @include flex($jc:center,$ai:center);
-  }
-  
-  .feature-list__title {
-    font-size: 14px;
-    margin-bottom: 10px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    list-style: none;
-    color: $primary-text-color;
-    @media screen and (max-width: 767px){
+
+.feature-list__icon {
+  fill: $primary-text-color;
+  @include flex($jc: center, $ai: center);
+}
+
+.feature-list__title {
+  font-size: 14px;
+  margin-bottom: 10px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  list-style: none;
+  color: $primary-text-color;
+  @media screen and (max-width: 767px) {
     text-align: center;
   }
 }
-  .feature-list__text {
-    
-    line-height: 1.71;
-    list-style: none;
-    letter-spacing: 0.03em;
-    color: $title-color;
-    @media screen and (min-width: 768px){
-      font-size: 14px;
-    }
-    @media screen and (min-width: 1200px){
-      font-size: 14px;
-    }
-
+.feature-list__text {
+  line-height: 1.71;
+  list-style: none;
+  letter-spacing: 0.03em;
+  color: $title-color;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
   }
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+  }
+}

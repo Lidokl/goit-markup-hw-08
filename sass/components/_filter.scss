@@ -1,5 +1,4 @@
 .filter {
-  
   @include flex;
   flex-wrap: wrap;
   margin-bottom: 50px;
@@ -7,7 +6,7 @@
     margin-top: -15px;
   }
   @media (min-width: 768px) {
-justify-content: center;
+    justify-content: center;
   }
 }
 
@@ -15,7 +14,7 @@ justify-content: center;
   margin-right: 8px;
 }
 
-.filter__item{
+.filter__item {
   @media (max-width: 767px) {
     margin-top: 15px;
   }

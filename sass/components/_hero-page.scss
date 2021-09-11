@@ -1,25 +1,22 @@
 .hero {
- 
-    margin-left: auto;
-    margin-right: auto;
-    background: $title-black;
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: linear-gradient($hero-bgc, $hero-bgc),
-      url(../images/imghero.jpg);
-    display: block;
-  @media screen and (max-width: 1199px){
-padding: 118px 0;
+  margin-left: auto;
+  margin-right: auto;
+  background: $title-black;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient($hero-bgc, $hero-bgc),
+    url(../images/imghero.jpg);
+  display: block;
+  @media screen and (max-width: 1199px) {
+    padding: 118px 0;
   }
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     padding: 200px 0;
     height: 600px;
     max-width: 1600px;
-   
   }
- 
 }
 
 .hero__text {
@@ -33,7 +30,7 @@ padding: 118px 0;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     font-size: 44px;
-}
+  }
 }

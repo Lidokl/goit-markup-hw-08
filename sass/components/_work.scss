@@ -1,25 +1,24 @@
 .work {
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 767px) {
     display: none;
   }
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     display: none;
   }
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     display: block;
   }
 }
 
-
 .work-list {
-  @include flex($jc:space-between);
-  
+  @include flex($jc: space-between);
+
   padding-bottom: 94px;
   margin: -15px;
 }
 .work-list__thumb {
   position: relative;
-  margin: 15px
+  margin: 15px;
 }
 .work-list__action {
   position: absolute;

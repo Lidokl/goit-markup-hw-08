@@ -8,9 +8,9 @@
 }
 
 .form-group__input {
-  @media screen and (max-width: 767px){
-  width: 370px;
-height: 40px;
+  @media screen and (max-width: 767px) {
+    width: 370px;
+    height: 40px;
   }
   padding: 0;
   padding-left: 40px;
@@ -54,10 +54,10 @@ height: 40px;
   margin-bottom: 20px;
 }
 .form-group__texterea {
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 767px) {
     width: 370px;
-  height: 40px;
-    }
+    height: 40px;
+  }
   padding: 0;
   width: 448px;
   height: 120px;
@@ -84,9 +84,7 @@ height: 40px;
 }
 
 .checkbox__form {
-  @include flex($jc:center,$ai:center);
- 
-  
+  @include flex($jc: center, $ai: center);
 }
 
 .checkbox__input {
