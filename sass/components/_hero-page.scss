@@ -9,6 +9,9 @@
   background-image: linear-gradient($hero-bgc, $hero-bgc),
     url(../images/imghero.jpg);
   display: block;
+  @media screen and (max-width: 767px) {
+    width: 480px;
+  }
   @media screen and (max-width: 1199px) {
     padding: 118px 0;
   }
