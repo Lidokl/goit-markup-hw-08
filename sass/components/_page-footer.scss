@@ -3,6 +3,9 @@
   font-family: inherit;
   background-color: $title-black;
   font-size: 14px;
+  @media screen and (max-width: 767px) {
+    width: 480px;
+  }
 }
 .footer__container-tablet {
   @media (max-width: 767px) {
@@ -143,8 +146,8 @@
   letter-spacing: 0.03em;
   background: #2f303a;
   color: rgba(255, 255, 255, 0.6);
-  @media screen and (min-width: 480px) {
-    width: 100%;
+  @media screen and (max-width: 767px) {
+    width: 450px;
   }
 
   @media (min-width: 768px) and (max-width: 1199px) {
