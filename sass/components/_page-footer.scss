@@ -3,9 +3,7 @@
   font-family: inherit;
   background-color: $title-black;
   font-size: 14px;
-  @media screen and (max-width: 767px) {
-    width: 480px;
-  }
+  
 }
 .footer__container-tablet {
   @media (max-width: 767px) {

@@ -1289,12 +1289,6 @@ img {
   font-size: 14px;
 }
 
-@media screen and (max-width: 767px) {
-  .footer {
-    width: 480px;
-  }
-}
-
 @media (max-width: 767px) {
   .footer__container-tablet {
     display: block;
