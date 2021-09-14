@@ -6,11 +6,7 @@
   }
   @media screen and (min-width: 1200px) {
     display: flex;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.06;
-    margin-left: auto;
-    align-items: center;
+    
   }
 }
 
@@ -65,6 +61,13 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     padding: 16px 0;
+  }
+  @media (min-width: 768px) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.06;
+    margin-left: auto;
+    align-items: center;
   }
 }
 .nav-list__link.nav-list__link__current:active {
