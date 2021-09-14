@@ -8,7 +8,7 @@
 }
 
 .form-group__input {
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1199px) {
     width: 370px;
     height: 40px;
   }
@@ -54,9 +54,9 @@
   margin-bottom: 20px;
 }
 .form-group__texterea {
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1199px) {
     width: 370px;
-    height: 40px;
+   
   }
   padding: 0;
   width: 448px;
@@ -124,6 +124,9 @@
   color: $accent-color;
 }
 .checkbox__text {
+  @media screen and (max-width: 1199px) {
+    font-size: 12px;
+  }
   padding-left: 9px;
   font-size: 14px;
   line-height: 1.71;

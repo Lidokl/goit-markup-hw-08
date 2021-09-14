@@ -1798,7 +1798,7 @@ img {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .backdrop {
     position: fixed;
     top: 0;
@@ -1824,7 +1824,7 @@ img {
 }
 
 .modal {
-  position: relative;
+  position: absolute;
   padding: 40px;
   top: 50%;
   left: 50%;
@@ -1840,13 +1840,17 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1199px) {
   .modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%) scale(1);
-            transform: translate(-50%, -50%) scale(1);
+    min-width: 450px;
+    min-height: 609px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    min-width: 528px;
+    min-height: 581px;
   }
 }
 
@@ -1893,6 +1897,12 @@ img {
   color: #212121;
 }
 
+@media screen and (max-width: 1199px) {
+  .modal__name {
+    text-align: center;
+  }
+}
+
 .form-group {
   margin-bottom: 10px;
 }
@@ -1920,7 +1930,7 @@ img {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .form-group__input {
     width: 370px;
     height: 40px;
@@ -1971,10 +1981,9 @@ img {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .form-group__texterea {
     width: 370px;
-    height: 40px;
   }
 }
 
@@ -2050,5 +2059,11 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1199px) {
+  .checkbox__text {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
